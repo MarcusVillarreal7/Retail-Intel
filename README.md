@@ -1,5 +1,7 @@
 # Retail Intel — Omnichannel Retail Intelligence Dashboard
 
+Demo: https://retail-intel-production.up.railway.app/
+
 A full-stack analytics dashboard for luxury fashion retail, demonstrating SQL proficiency, data modeling, Python data generation, and React dashboard development. Designed around the business model of a high-growth luxury brand managing DTC expansion, wholesale door strategy, full-price integrity, and category diversification.
 
 **All data is synthetic.** No real brands, customers, or proprietary information.
