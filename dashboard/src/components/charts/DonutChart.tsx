@@ -30,7 +30,7 @@ export default function DonutChart({ data }: Props) {
             </Pie>
             <Tooltip
               contentStyle={{ backgroundColor: "#161618", border: "1px solid #2A2A2E", borderRadius: 8 }}
-              formatter={(value: number) => [`$${(value / 1_000_000).toFixed(2)}M`, ""]}
+              formatter={(value: number | undefined) => [`$${((value ?? 0) / 1_000_000).toFixed(2)}M`, ""]}
             />
           </PieChart>
         </ResponsiveContainer>

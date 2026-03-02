@@ -39,7 +39,7 @@ export default function DoorPerformanceChart({ data }: Props) {
           <Tooltip
             contentStyle={{ backgroundColor: "#161618", border: "1px solid #2A2A2E", borderRadius: 8 }}
             labelStyle={{ color: "#F5F5F5" }}
-            formatter={(value: number) => [`$${(value / 1_000_000).toFixed(2)}M`, "Revenue"]}
+            formatter={(value: number | undefined) => [`$${((value ?? 0) / 1_000_000).toFixed(2)}M`, "Revenue"]}
           />
           <Bar dataKey="revenue" radius={[0, 4, 4, 0]}>
             {sorted.map((entry, i) => (

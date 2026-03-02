@@ -24,7 +24,7 @@ export default function AgingBarChart({ data }: Props) {
           <Tooltip
             contentStyle={{ backgroundColor: "#161618", border: "1px solid #2A2A2E", borderRadius: 8 }}
             labelStyle={{ color: "#F5F5F5" }}
-            formatter={(value: number) => [`$${(value / 1_000).toFixed(0)}K`, "Value at Risk"]}
+            formatter={(value: number | undefined) => [`$${((value ?? 0) / 1_000).toFixed(0)}K`, "Value at Risk"]}
           />
           <Bar dataKey="value_at_risk" radius={[4, 4, 0, 0]}>
             {data.map((entry, i) => (

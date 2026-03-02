@@ -17,7 +17,7 @@ export default function RevenueAreaChart({ data }: Props) {
           <Tooltip
             contentStyle={{ backgroundColor: "#161618", border: "1px solid #2A2A2E", borderRadius: 8 }}
             labelStyle={{ color: "#F5F5F5" }}
-            formatter={(value: number) => [`$${(value / 1_000_000).toFixed(2)}M`, ""]}
+            formatter={(value: number | undefined) => [`$${((value ?? 0) / 1_000_000).toFixed(2)}M`, ""]}
           />
           <Legend wrapperStyle={{ fontSize: 12, color: "#9A9A9E" }} />
           <Area type="monotone" dataKey="revenue" name="FY 2025" stroke="#C9A96E" fill="#C9A96E" fillOpacity={0.15} strokeWidth={2} />

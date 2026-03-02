@@ -36,7 +36,7 @@ export function CategoryRevenueChart({ data }: GrowthProps) {
           <Tooltip
             contentStyle={{ backgroundColor: "#161618", border: "1px solid #2A2A2E", borderRadius: 8 }}
             labelStyle={{ color: "#F5F5F5" }}
-            formatter={(value: number, name: string) => [`$${(value / 1_000_000).toFixed(2)}M`, name]}
+            formatter={(value: number | undefined, name: string) => [`$${((value ?? 0) / 1_000_000).toFixed(2)}M`, name]}
           />
           <Legend wrapperStyle={{ fontSize: 12, color: "#9A9A9E" }} />
           {Object.keys(CATEGORY_COLORS).map((key) => (
@@ -77,7 +77,7 @@ export function CategoryMixChart({ data }: MixProps) {
           <Tooltip
             contentStyle={{ backgroundColor: "#161618", border: "1px solid #2A2A2E", borderRadius: 8 }}
             labelStyle={{ color: "#F5F5F5" }}
-            formatter={(value: number, name: string) => [`${value.toFixed(1)}%`, name]}
+            formatter={(value: number | undefined, name: string) => [`${(value ?? 0).toFixed(1)}%`, name]}
           />
           <Legend wrapperStyle={{ fontSize: 12, color: "#9A9A9E" }} />
           {Object.keys(CATEGORY_COLORS).map((key) => (

@@ -17,7 +17,7 @@ export default function AOVTrendChart({ data }: Props) {
           <Tooltip
             contentStyle={{ backgroundColor: "#161618", border: "1px solid #2A2A2E", borderRadius: 8 }}
             labelStyle={{ color: "#F5F5F5" }}
-            formatter={(value: number) => [`$${value.toFixed(0)}`, ""]}
+            formatter={(value: number | undefined) => [`$${(value ?? 0).toFixed(0)}`, ""]}
           />
           <Legend wrapperStyle={{ fontSize: 12, color: "#9A9A9E" }} />
           <Line type="monotone" dataKey="boutique" name="Boutique" stroke="#C9A96E" strokeWidth={2} dot={false} />

@@ -20,7 +20,7 @@ export default function StackedBarChart({ data }: Props) {
           <Tooltip
             contentStyle={{ backgroundColor: "#161618", border: "1px solid #2A2A2E", borderRadius: 8 }}
             labelStyle={{ color: "#F5F5F5" }}
-            formatter={(value: number) => [`$${(value / 1_000_000).toFixed(2)}M`, ""]}
+            formatter={(value: number | undefined) => [`$${((value ?? 0) / 1_000_000).toFixed(2)}M`, ""]}
           />
           <Legend wrapperStyle={{ fontSize: 12, color: "#9A9A9E" }} />
           <Bar dataKey="full_price_revenue" name="Full Price" stackId="a" fill="#C9A96E" radius={[0, 0, 0, 0]} />
