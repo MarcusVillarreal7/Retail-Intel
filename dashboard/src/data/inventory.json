@@ -1,0 +1,18 @@
+{
+  "aging": [
+    { "bucket": "0-30 days", "units": 8400, "value_at_risk": 4200000, "pct_of_total": 42.0 },
+    { "bucket": "31-60 days", "units": 5600, "value_at_risk": 2800000, "pct_of_total": 28.0 },
+    { "bucket": "61-90 days", "units": 3800, "value_at_risk": 1900000, "pct_of_total": 19.0 },
+    { "bucket": "90+ days", "units": 2200, "value_at_risk": 1100000, "pct_of_total": 11.0 }
+  ],
+  "at_risk_items": [
+    { "product_name": "Oversized Cashmere Coat", "category": "RTW", "days_on_hand": 142, "units": 38, "retail_value": 132240 },
+    { "product_name": "Embossed Leather Tote", "category": "Leather Goods", "days_on_hand": 128, "units": 52, "retail_value": 109200 },
+    { "product_name": "Silk Evening Gown", "category": "RTW", "days_on_hand": 118, "units": 24, "retail_value": 83760 },
+    { "product_name": "Crystal Buckle Belt", "category": "Accessories", "days_on_hand": 112, "units": 87, "retail_value": 60900 },
+    { "product_name": "Suede Chelsea Boot", "category": "Footwear", "days_on_hand": 105, "units": 41, "retail_value": 56580 },
+    { "product_name": "Wide Leg Trouser", "category": "RTW", "days_on_hand": 98, "units": 65, "retail_value": 50700 },
+    { "product_name": "Structured Blazer", "category": "RTW", "days_on_hand": 95, "units": 48, "retail_value": 48960 },
+    { "product_name": "Leather Low-Top Sneaker", "category": "Footwear", "days_on_hand": 93, "units": 56, "retail_value": 47040 }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "channel_mix": [
+    { "channel": "Boutique", "revenue": 21400000, "pct": 50.0, "aov": 1120, "transactions": 19107 },
+    { "channel": "E-Commerce", "revenue": 12840000, "pct": 30.0, "aov": 745, "transactions": 17235 },
+    { "channel": "Outlet", "revenue": 6420000, "pct": 15.0, "aov": 520, "transactions": 12346 },
+    { "channel": "Wholesale", "revenue": 2140000, "pct": 5.0, "aov": 2890, "transactions": 740 }
+  ],
+  "aov_trend": [
+    { "month": "Jan", "boutique": 1080, "ecommerce": 720, "outlet": 490 },
+    { "month": "Feb", "boutique": 1050, "ecommerce": 710, "outlet": 505 },
+    { "month": "Mar", "boutique": 1110, "ecommerce": 735, "outlet": 510 },
+    { "month": "Apr", "boutique": 1095, "ecommerce": 740, "outlet": 515 },
+    { "month": "May", "boutique": 1125, "ecommerce": 750, "outlet": 520 },
+    { "month": "Jun", "boutique": 1140, "ecommerce": 760, "outlet": 525 },
+    { "month": "Jul", "boutique": 1100, "ecommerce": 730, "outlet": 510 },
+    { "month": "Aug", "boutique": 1090, "ecommerce": 725, "outlet": 500 },
+    { "month": "Sep", "boutique": 1130, "ecommerce": 755, "outlet": 530 },
+    { "month": "Oct", "boutique": 1150, "ecommerce": 770, "outlet": 535 },
+    { "month": "Nov", "boutique": 1180, "ecommerce": 790, "outlet": 550 },
+    { "month": "Dec", "boutique": 1160, "ecommerce": 775, "outlet": 540 }
+  ],
+  "sell_through": [
+    { "channel": "Boutique", "category": "RTW", "units_sold": 3200, "units_received": 4200, "sell_through_pct": 76.2 },
+    { "channel": "Boutique", "category": "Footwear", "units_sold": 2800, "units_received": 3600, "sell_through_pct": 77.8 },
+    { "channel": "Boutique", "category": "Leather Goods", "units_sold": 1900, "units_received": 2400, "sell_through_pct": 79.2 },
+    { "channel": "Boutique", "category": "Accessories", "units_sold": 4100, "units_received": 5800, "sell_through_pct": 70.7 },
+    { "channel": "Boutique", "category": "Denim", "units_sold": 1500, "units_received": 2100, "sell_through_pct": 71.4 },
+    { "channel": "E-Commerce", "category": "RTW", "units_sold": 4500, "units_received": 6200, "sell_through_pct": 72.6 },
+    { "channel": "E-Commerce", "category": "Footwear", "units_sold": 3100, "units_received": 4500, "sell_through_pct": 68.9 },
+    { "channel": "E-Commerce", "category": "Leather Goods", "units_sold": 2200, "units_received": 3000, "sell_through_pct": 73.3 },
+    { "channel": "E-Commerce", "category": "Accessories", "units_sold": 5800, "units_received": 8200, "sell_through_pct": 70.7 },
+    { "channel": "E-Commerce", "category": "Denim", "units_sold": 2100, "units_received": 3100, "sell_through_pct": 67.7 },
+    { "channel": "Outlet", "category": "RTW", "units_sold": 2800, "units_received": 4800, "sell_through_pct": 58.3 },
+    { "channel": "Outlet", "category": "Footwear", "units_sold": 2200, "units_received": 3800, "sell_through_pct": 57.9 },
+    { "channel": "Outlet", "category": "Leather Goods", "units_sold": 1100, "units_received": 1800, "sell_through_pct": 61.1 },
+    { "channel": "Outlet", "category": "Accessories", "units_sold": 3400, "units_received": 5600, "sell_through_pct": 60.7 },
+    { "channel": "Outlet", "category": "Denim", "units_sold": 1800, "units_received": 3000, "sell_through_pct": 60.0 }
+  ],
+  "full_price_markdown": [
+    { "month": "Jan", "full_price_revenue": 2810000, "markdown_revenue": 310000, "markdown_depth": 8.2 },
+    { "month": "Feb", "full_price_revenue": 2680000, "markdown_revenue": 300000, "markdown_depth": 7.9 },
+    { "month": "Mar", "full_price_revenue": 3140000, "markdown_revenue": 310000, "markdown_depth": 7.5 },
+    { "month": "Apr", "full_price_revenue": 2950000, "markdown_revenue": 330000, "markdown_depth": 8.8 },
+    { "month": "May", "full_price_revenue": 3250000, "markdown_revenue": 360000, "markdown_depth": 9.1 },
+    { "month": "Jun", "full_price_revenue": 3350000, "markdown_revenue": 540000, "markdown_depth": 14.2 },
+    { "month": "Jul", "full_price_revenue": 2520000, "markdown_revenue": 630000, "markdown_depth": 22.5 },
+    { "month": "Aug", "full_price_revenue": 2340000, "markdown_revenue": 680000, "markdown_depth": 24.8 },
+    { "month": "Sep", "full_price_revenue": 3480000, "markdown_revenue": 260000, "markdown_depth": 6.8 },
+    { "month": "Oct", "full_price_revenue": 3680000, "markdown_revenue": 280000, "markdown_depth": 7.1 },
+    { "month": "Nov", "full_price_revenue": 4180000, "markdown_revenue": 340000, "markdown_depth": 7.8 },
+    { "month": "Dec", "full_price_revenue": 3740000, "markdown_revenue": 340000, "markdown_depth": 8.5 }
+  ],
+  "dtc_mix": [
+    { "quarter": "Q1 '24", "dtc_revenue": 8200000, "wholesale_revenue": 5700000, "dtc_pct": 59.0 },
+    { "quarter": "Q2 '24", "dtc_revenue": 8900000, "wholesale_revenue": 5800000, "dtc_pct": 60.5 },
+    { "quarter": "Q3 '24", "dtc_revenue": 9400000, "wholesale_revenue": 5500000, "dtc_pct": 63.1 },
+    { "quarter": "Q4 '24", "dtc_revenue": 10800000, "wholesale_revenue": 5600000, "dtc_pct": 65.9 },
+    { "quarter": "Q1 '25", "dtc_revenue": 10200000, "wholesale_revenue": 5100000, "dtc_pct": 66.7 },
+    { "quarter": "Q2 '25", "dtc_revenue": 11100000, "wholesale_revenue": 5200000, "dtc_pct": 68.1 },
+    { "quarter": "Q3 '25", "dtc_revenue": 11800000, "wholesale_revenue": 4900000, "dtc_pct": 70.7 },
+    { "quarter": "Q4 '25", "dtc_revenue": 13200000, "wholesale_revenue": 5100000, "dtc_pct": 72.1 }
+  ]
+}

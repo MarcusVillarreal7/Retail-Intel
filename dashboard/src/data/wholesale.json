@@ -1,0 +1,22 @@
+{
+  "kpis": [
+    { "label": "Wholesale Revenue", "value": "18.4", "change": 6.2, "prefix": "$", "suffix": "M" },
+    { "label": "Active Doors", "value": "12", "change": 9.1 },
+    { "label": "Avg Sell-Through", "value": "68.5", "change": 3.4, "suffix": "%" },
+    { "label": "Reorder Rate", "value": "74.2", "change": 5.8, "suffix": "%" }
+  ],
+  "doors": [
+    { "door": "Bergdorf Goodman", "region": "North America", "revenue": 2840000, "units_shipped": 3200, "sell_through_pct": 78.2, "reorder_rate": 88.0, "yoy_growth": 11.4, "status": "top" },
+    { "door": "Neiman Marcus", "region": "North America", "revenue": 2620000, "units_shipped": 3050, "sell_through_pct": 74.5, "reorder_rate": 82.0, "yoy_growth": 8.7, "status": "top" },
+    { "door": "SSENSE", "region": "North America", "revenue": 2180000, "units_shipped": 2800, "sell_through_pct": 81.3, "reorder_rate": 91.0, "yoy_growth": 22.5, "status": "top" },
+    { "door": "Saks Fifth Avenue", "region": "North America", "revenue": 2050000, "units_shipped": 2600, "sell_through_pct": 72.1, "reorder_rate": 78.0, "yoy_growth": 6.3, "status": "top" },
+    { "door": "Harrods", "region": "Europe", "revenue": 1920000, "units_shipped": 2200, "sell_through_pct": 71.8, "reorder_rate": 76.0, "yoy_growth": 5.1, "status": "average" },
+    { "door": "Selfridges", "region": "Europe", "revenue": 1340000, "units_shipped": 1600, "sell_through_pct": 65.4, "reorder_rate": 68.0, "yoy_growth": 2.8, "status": "average" },
+    { "door": "Galeries Lafayette", "region": "Europe", "revenue": 980000, "units_shipped": 1350, "sell_through_pct": 58.2, "reorder_rate": 55.0, "yoy_growth": -1.2, "status": "underperformer" },
+    { "door": "Isetan", "region": "Asia Pacific", "revenue": 1150000, "units_shipped": 1400, "sell_through_pct": 69.8, "reorder_rate": 72.0, "yoy_growth": 7.6, "status": "average" },
+    { "door": "Harvey Nichols", "region": "Europe", "revenue": 890000, "units_shipped": 1100, "sell_through_pct": 56.7, "reorder_rate": 52.0, "yoy_growth": -3.4, "status": "underperformer" },
+    { "door": "Level Shoes", "region": "Middle East", "revenue": 760000, "units_shipped": 900, "sell_through_pct": 63.5, "reorder_rate": 65.0, "yoy_growth": 4.2, "status": "average" },
+    { "door": "Dover Street Market", "region": "North America", "revenue": 920000, "units_shipped": 1050, "sell_through_pct": 76.9, "reorder_rate": 85.0, "yoy_growth": 14.8, "status": "top" },
+    { "door": "Matches Fashion", "region": "Europe", "revenue": 750000, "units_shipped": 980, "sell_through_pct": 54.1, "reorder_rate": 48.0, "yoy_growth": -5.6, "status": "underperformer" }
+  ]
+}
